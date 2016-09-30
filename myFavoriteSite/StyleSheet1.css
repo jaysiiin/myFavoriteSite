@@ -2,9 +2,14 @@
     background-color:#424142;
 
 }
+
 div.navbar-header{
     font-family: 'Sarina', cursive;
     font-style: italic;
+}
+
+#optionText{
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 p.salesBar{
@@ -12,6 +17,8 @@ p.salesBar{
     color: white;
     text-align:center
 }
+
 #saleBarLink{
     color:white;
 }
+

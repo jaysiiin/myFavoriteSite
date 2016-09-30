@@ -11,7 +11,7 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link href="StyleSheet1.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Sarina" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Sarina" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-default">
@@ -30,7 +30,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="dropdown">
+                    <li class="dropdown" id="optionText">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WOMEN<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">WOMEN'S HOME</a></li>
@@ -44,7 +44,7 @@
                             <li><a href="#">BEAUTY</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
+                    <li class="dropdown" id="optionText">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MEN<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">MEN'S HOME</a></li>
@@ -58,7 +58,7 @@
                             <li><a href="#">GROOMING</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
+                    <li class="dropdown" id="optionText">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">JEANS<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">JEANS HOME</a></li>
@@ -66,7 +66,7 @@
                             <li><a href="#">MEN'S JEANS</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
+                    <li class="dropdown" id="optionText">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">AERIE<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">AERIE HOME</a></li>
@@ -80,7 +80,7 @@
                             <li><a href="#">BRAS & BRALETTES</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
+                    <li class="dropdown" id="optionText">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TAILGATE<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">TAILGATE HOME</a></li>
@@ -89,7 +89,7 @@
                             <li><a href="#">MEN'S</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
+                    <li class="dropdown" id="optionText">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GIFTS<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">WOMEN'S GIFTS</a></li>
@@ -97,7 +97,7 @@
                             <li><a href="#">AERIE GITS</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
+                    <li class="dropdown" id="optionText">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CLEARANCE<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">CLEARANCE HOME</a></li>
@@ -116,8 +116,38 @@
         </div><!-- /.container-fluid -->
     </nav>
 
-<p class="salesBar">Limited time only: 60% off clearance in stores & online <a href="#yoyoyo" id="saleBarLink">Shop Womens</a>| <a href="#gg" id="saleBarLink">Shope Mens</a></p>
+    <div class="container" id="redSaleBar">
+        <p class="salesBar">Limited time only: 60% off clearance in stores & online <a href="#yoyoyo" id="saleBarLink">Shop Womens </a>| <a href="#gg" id="saleBarLink">Shope Mens</a></p>
+    </div>
 
+    <div class="container" id="secondSale">
+        <p class="container" id="onlineOnly">Limited time: ONLINE ONLY</p>
+        <p class="container" id="2560off"> 25%-60% OFF THE FALL COLLECTION</p>
+        <a href="#shopTops" id="2560offitems">Shop tops</a>
+        <a href="#shopBottoms">Shop bottoms</a>
+        <a href="#shopShoes">Shop shoes</a>
+        <a href="#shopClearance">Shop clearance</a>
+
+    </div>
+
+
+    <div class="row" id="first3Pictures">
+        <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="..." alt="...">
+            </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="..." alt="...">
+            </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="..." alt="...">
+            </a>
+        </div>
+    </div>
 
 
 </body>
