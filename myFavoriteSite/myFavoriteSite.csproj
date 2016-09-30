@@ -76,6 +76,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
+    <Content Include="Pictures\118350_story__catpic1.jpg" />
+    <Content Include="Pictures\Cat-Batman-Halloween-Costume.jpg.jpg" />
     <Content Include="Pictures\FB_IMG_1463181053630.jpg" />
     <Content Include="Pictures\FB_IMG_1463800627361.jpg" />
     <Content Include="Pictures\FB_IMG_1469380942954.jpg" />

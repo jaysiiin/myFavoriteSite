@@ -83,6 +83,18 @@ p.salesBar{
     text-align: center;
     text-decoration:none;
     display: inline-block;
-
+    margin-bottom:10px;
 }
+
+#isItDone{
+    display:inline-block;
+    text-align:center;
+    margin-top:20px;
+    color:white;
+}
+
+.whySoSerious{
+    color:white;
+}
+
 
