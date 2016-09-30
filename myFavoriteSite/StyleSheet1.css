@@ -22,3 +22,32 @@ p.salesBar{
     color:white;
 }
 
+.secondSale{
+    text-align:center;
+}
+
+#onlineOnly{
+    font-size: 11px;
+    color:white;
+}
+
+#fall{
+    font-size: 15px;
+    color:white;
+}
+
+#fallOffItems {
+    margin-bottom:10px;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+}
+
+.catPictures{
+    margin:auto;
+    display: inline-block;
+}
+
