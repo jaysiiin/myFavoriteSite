@@ -1,6 +1,17 @@
 ﻿body {
+    background-color:#424142;
 
 }
 div.navbar-header{
-font-family: 'Sarina', cursive;
+    font-family: 'Sarina', cursive;
+    font-style: italic;
+}
+
+p.salesBar{
+    background-color:red;
+    color: white;
+    text-align:center
+}
+#saleBarLink{
+    color:white;
 }
